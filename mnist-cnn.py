@@ -145,7 +145,7 @@ def main(argv):
    """ TODO: add model dir?? """
    mnist_classifier = tf.estimator.Estimator(
        model_fn = cnn_model,
-       model_dir="C://Users//sanat//Documents//Github//Image"   )
+       model_dir=None   )
 
    # set up logging for predictions
    # Log values in softmax tensor as label 'probabilities'
