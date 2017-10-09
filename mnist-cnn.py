@@ -164,7 +164,7 @@ def main(argv):
    )
    mnist_classifier.train(
        input_fn= train_input,
-       steps= 30000,
+       steps= 17000,
        hooks= [logging_hook]
    )
 
